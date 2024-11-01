@@ -1,0 +1,84 @@
+Dependencies for Project 'PWM', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x67133355)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+I (SysTick_Delay.h)(0x6712FD04)
+I (PWM_Clock.h)(0x6712FD04)
+I (PWM1_3.h)(0x6712FD04)
+I (PWM0_0.h)(0x6712FD04)
+I (Timer_0A_Interrupt.h)(0x6712FD04)
+I (PMOD_BTN_Interrupt.h)(0x6712FD04)
+F (.\GPIO.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MMD)
+I (GPIO.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+I (SysTick_Delay.h)(0x6712FD04)
+F (.\SysTick_Delay.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/systick_delay.o -MMD)
+I (SysTick_Delay.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\Buzzer.c)(0x6712FD03)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/buzzer.o -MMD)
+I (Buzzer.h)(0x6712FD03)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+I (SysTick_Delay.h)(0x6712FD04)
+I (GPIO.h)(0x6712FD04)
+F (.\Timer_0A_Interrupt.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer_0a_interrupt.o -MMD)
+I (Timer_0A_Interrupt.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\Seven_Segment_Display.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/seven_segment_display.o -MMD)
+I (Seven_Segment_Display.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+I (SysTick_Delay.h)(0x6712FD04)
+F (.\EduBase_Button_Interrupt.c)(0x6712FD03)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/edubase_button_interrupt.o -MMD)
+I (EduBase_Button_Interrupt.h)(0x6712FD03)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+I (GPIO.h)(0x6712FD04)
+I (SysTick_Delay.h)(0x6712FD04)
+F (.\PMOD_BTN_Interrupt.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/pmod_btn_interrupt.o -MMD)
+I (PMOD_BTN_Interrupt.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\PWM_Clock.c)(0x67130BEF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/pwm_clock.o -MMD)
+I (PWM_Clock.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\PWM0_0.c)(0x671324DF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/pwm0_0.o -MMD)
+I (PWM0_0.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\PWM1_3.c)(0x67130BEF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/pwm1_3.o -MMD)
+I (PWM1_3.h)(0x6712FD04)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
+F (.\GPIO.h)(0x6712FD04)()
+F (.\SysTick_Delay.h)(0x6712FD04)()
+F (.\Buzzer.h)(0x6712FD03)()
+F (.\Timer_0A_Interrupt.h)(0x6712FD04)()
+F (.\Seven_Segment_Display.h)(0x6712FD04)()
+F (.\EduBase_Button_Interrupt.h)(0x6712FD03)()
+F (.\PMOD_BTN_Interrupt.h)(0x6712FD04)()
+F (.\PWM_Clock.h)(0x6712FD04)()
+F (.\PWM0_0.h)(0x6712FD04)()
+F (.\PWM1_3.h)(0x6712FD04)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x6712FD04)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x6712FD04)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/kat79/OneDrive/Documents/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kat79/OneDrive/Documents/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MMD)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66DBCD29)
+I (C:\Users\kat79\OneDrive\Documents\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x66DBCE4F)
+I (C:\Users\kat79\OneDrive\Documents\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66DBCD29)
